@@ -18,5 +18,7 @@
         $('.sidebar-menu').tree()
     })
 </script>
+
+@yield('custom_scripts')
 </body>
 </html>

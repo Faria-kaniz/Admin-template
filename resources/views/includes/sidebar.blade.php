@@ -39,7 +39,31 @@
                 </ul>
             </li>
 
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-users"></i> <span>Student</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="{{url('/student_list')}}"><i class="fa fa-circle-o"></i>Student List</a></li>
+                    <li><a href="{{url('/add')}}"><i class="fa fa-circle-o"></i> Add new</a></li>
+                </ul>
+            </li>
 
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-users"></i> <span>Class</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="#"><i class="fa fa-circle-o"></i>Class List</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i> Add new</a></li>
+                </ul>
+            </li>
 
 
 {{--                    </span>--}}

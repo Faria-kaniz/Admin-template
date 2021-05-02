@@ -22,3 +22,6 @@ Route::get('/admin','HomeController@admin');
 
 Route::get('/add','HomeController@addcour')->name('add.student');
 Route::post('/store','HomeController@store')->name('student.store');
+
+
+Route::get('/student_list','HomeController@studentList');

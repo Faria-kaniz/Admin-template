@@ -17,7 +17,7 @@
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         </ol>
     </section>
-@yield('content')
+    @yield('content')
     <!-- Main content -->
 
     <!-- /.content -->
